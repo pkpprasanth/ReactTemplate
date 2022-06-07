@@ -1,0 +1,33 @@
+.logo {
+  height: 40px;
+  margin: 18px 16px;
+  text-align: center;
+}
+.trigger {
+    font-size: 200%;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  
+  }
+  .ant-menu-item{
+      background-color: transparent;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: transparent; 
+}
+.datavalue{
+  height: 60px;
+  align-items: flex-start;
+}
+.ant-divider-vertical.ant-divider-with-text-center::before,
+.ant-divider-vertical.ant-divider-with-text-center::after
+{
+   border-top: 1px solid red;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}
